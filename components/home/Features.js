@@ -2,8 +2,17 @@ import { ShoppingCart, Handshake, ScrollText, DollarSign } from "lucide-react";
 import { Button } from "../ui/button";
 export default function Features() {
   return (
-    <div className="flex w-full bg-[#FFF5E4] py-20">
+    <div>
+        <div
+      className="w-full h-48 bg-no-repeat bg-cover z-10"
+      style={{
+        backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 100' fill='%23FFF5E4'%3E%3Cpath d='M0 0v4s250 96 500 96 500-96 500-96V0H0Z'%3E%3C/path%3E%3C/svg%3E")`,
+      }}
+    ></div>
+    <div className="flex w-full bg-[#] -mt-20 pb-20">
+        
       <div className="w-1/2 flex flex-col justify-center items-center">
+      
       <p className="text-7xl font-semibold">Everything at</p>
       
       <div className="relative inline-block">
@@ -59,6 +68,7 @@ export default function Features() {
         </div>
       </div>
       </div>
+    </div>
     </div>
   );
 }
