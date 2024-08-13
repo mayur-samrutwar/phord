@@ -4,10 +4,10 @@ import { Button } from "@/components/ui/button"
 export default function Navbar() {
   return (
     <nav className="bg-white sticky top-0 z-50">
-      <div className="container mx-auto px-4 py-4 flex justify-between items-center">
+      <div className="container mx-auto px-4 py-8 flex justify-between items-center">
         <Link href="/" className='flex items-center'>
-        {/* <img src='/logo.png' className='h-16' /> */}
-          <p className="text-2xl font-bold text-gray-900">phord</p>
+        <img src='/phord.png' className='h-8' />
+      
         </Link>
         <div className="flex items-center space-x-8">
           <Link href="/properties"><p className="text-gray-800 hover:text-gray-700">Explore</p></Link>
@@ -19,4 +19,4 @@ export default function Navbar() {
       </div>
     </nav>
   )
-}
+} 
