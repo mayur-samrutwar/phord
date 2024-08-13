@@ -1,8 +1,10 @@
 import { ShoppingCart, Handshake, ScrollText, DollarSign } from "lucide-react";
 import { Button } from "../ui/button";
+import Link from "next/link";
 export default function Features() {
   return (
     <div>
+    
         <div
       className="w-full h-48 bg-no-repeat bg-cover z-10"
       style={{
@@ -25,8 +27,7 @@ export default function Features() {
       ></div>
     </div>
 
-    <Button size="lg" className="mt-12 bg-[#FF4D5F] text-[#FFF5E4] hover:bg-[#FF7679]">Start Your Journey</Button>
-      
+    <Link href="/properties"><Button size="lg" className="mt-12 bg-[#FF4D5F] text-[#FFF5E4] hover:bg-[#FF7679]">Start Your Journey</Button></Link>
       </div>
       <div className="w-1/2 flex justify-center items-center">
       <div className="flex space-x-4">

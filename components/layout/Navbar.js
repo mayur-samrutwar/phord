@@ -10,10 +10,10 @@ export default function Navbar() {
       
         </Link>
         <div className="flex items-center space-x-8">
-          <Link href="/properties"><p className="text-gray-800 hover:text-gray-700">Explore</p></Link>
-          <Link href="/marketplace"><p className="text-gray-800 hover:text-gray-700">Marketplace</p></Link>
+          <Link href="/properties"><p className="text-gray-800 hover:text-gray-700">Properties</p></Link>
+          <Link href="/marketplace"><p className="text-gray-800 hover:text-gray-700">Sell</p></Link>
           <Link href="/profile"><p className="text-gray-800 hover:text-gray-700">Profile</p></Link>
-          <Link href="/profile"><p className="text-gray-800 hover:text-gray-700">List Your Property</p></Link>
+          <Link href="/list"><p className="text-gray-800 hover:text-gray-700">List Your Property</p></Link>
           <Button className="px-6">Log in</Button>
         </div>
       </div>
