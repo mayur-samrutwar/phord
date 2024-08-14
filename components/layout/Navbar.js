@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { Button } from "@/components/ui/button"
+// import { w3mButton } from "appkit"
 
 export default function Navbar() {
   return (
@@ -14,7 +15,7 @@ export default function Navbar() {
           <Link href="/marketplace"><p className="text-gray-800 hover:text-gray-700">Sell</p></Link>
           <Link href="/profile"><p className="text-gray-800 hover:text-gray-700">Profile</p></Link>
           <Link href="/list"><p className="text-gray-800 hover:text-gray-700">List Your Property</p></Link>
-          <Button className="px-6">Log in</Button>
+          <w3m-button />
         </div>
       </div>
     </nav>
