@@ -15,7 +15,7 @@ export default function Navbar() {
           <Link href="/marketplace"><p className="text-gray-800 hover:text-gray-700">Sell</p></Link>
           <Link href="/profile"><p className="text-gray-800 hover:text-gray-700">Profile</p></Link>
           <Link href="/list"><p className="text-gray-800 hover:text-gray-700">List Your Property</p></Link>
-          <w3m-button />
+          <w3m-button label="Login" balance="hide" />
         </div>
       </div>
     </nav>
