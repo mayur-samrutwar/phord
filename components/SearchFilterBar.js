@@ -34,7 +34,7 @@ const SearchFilterBar = () => {
   };
 
   return (
-    <div className="bg-white mb-4 w-full">
+    <div className="mb-4 w-full">
       <div className="py-6">
         <div className="flex items-center space-x-4 mb-4">
           <div className="relative flex-grow">
