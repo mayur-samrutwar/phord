@@ -17,6 +17,8 @@ export default function Test() {
   });
 
   function handleRead() {
+    console.log("clicked");
+    console.log(data);
     if (data && data[0]) {
       setMessage(data[0].result);
     }
