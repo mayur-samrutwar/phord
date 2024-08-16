@@ -18,7 +18,7 @@ const metadata = {
 }
 
 // Create wagmiConfig
-const chains = [mainnet, sepolia, polygon, polygonMumbai]
+const chains = [polygonMumbai, mainnet, sepolia, polygon ]
 export const config = defaultWagmiConfig({
   chains,
   projectId,

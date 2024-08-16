@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { Button } from "@/components/ui/button";
 import { useAccount } from 'wagmi'
 import { useEffect } from 'react';
 
@@ -12,7 +11,6 @@ export default function Navbar() {
     }
   }, [isConnected, address]);
 
-
   const handleLogin = async (walletAddress) => {
     try {
       const response = await fetch('/api/login', {
@@ -20,7 +18,6 @@ export default function Navbar() {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ walletAddress }),
       });
-
       if (response.ok) {
         const userData = await response.json();
         console.log('Login successful:', userData);
@@ -31,8 +28,6 @@ export default function Navbar() {
       console.error('Error during login:', error);
     }
   };
-
-
 
   return (
     <nav className="bg-white sticky top-0 z-50">
