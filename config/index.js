@@ -7,13 +7,13 @@ import { cookieStorage, createStorage } from 'wagmi'
 import { mainnet, polygon, polygonAmoy, sepolia } from 'wagmi/chains'
 
 // Your WalletConnect Cloud project ID
-export const projectId = '3c5877d34668c621778b071252bfc0af'
+export const projectId = process.env.NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID
 
 // Create a metadata object
 const metadata = {
   name: 'phord',
   description: 'AppKit Example',
-  url: 'http://localhost:3003', // origin must match your domain & subdomain
+  url: 'https://www.phord.online/', // origin must match your domain & subdomain
   icons: ['https://avatars.githubusercontent.com/u/37784886']
 }
 
