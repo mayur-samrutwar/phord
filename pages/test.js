@@ -3,7 +3,7 @@ import { useReadContracts } from "wagmi";
 import abi from "../contracts/abi/hello.json";
 
 export default function Test() {
-  const contractAddress = "0xd9145CCE52D386f254917e481eB44e9943F39138";
+  const contractAddress = "0xcF74CAd27c2203668611C1B32366a8772a7d1d5e";
   const [message, setMessage] = useState("");
 
   const { data, isError, isLoading } = useReadContracts({
