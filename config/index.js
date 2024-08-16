@@ -13,7 +13,7 @@ export const projectId = '3c5877d34668c621778b071252bfc0af'
 const metadata = {
   name: 'phord',
   description: 'AppKit Example',
-  url: 'http://localhost:3000', // origin must match your domain & subdomain
+  url: 'http://localhost:3003', // origin must match your domain & subdomain
   icons: ['https://avatars.githubusercontent.com/u/37784886']
 }
 
