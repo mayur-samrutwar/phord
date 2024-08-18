@@ -7,6 +7,7 @@ export default function PropertyPage() {
   const { id } = router.query
   const property = properties.find(p => p.id === parseInt(id))
 
+
   if (!property) return <div>Property not found</div>
 
   return <PropertyDetails property={property} />
