@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2",
     "@radix-ui/react-dialog": "^1.1.1",
     "@radix-ui/react-label": "^2.1.0",
     "@radix-ui/react-popover": "^1.1.1",
@@ -36,8 +37,10 @@
     "wagmi": "^2.12.5"
   },
   "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
     "eslint": "^8",
     "eslint-config-next": "14.2.5",
+    "hardhat": "^2.22.8",
     "postcss": "^8",
     "tailwindcss": "^3.4.1"
   }

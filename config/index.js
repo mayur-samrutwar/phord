@@ -13,8 +13,8 @@ export const projectId = process.env.NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID
 const metadata = {
   name: 'phord',
   description: 'AppKit Example',
-  url: 'https://www.phord.online/', // origin must match your domain & subdomain
-  icons: ['https://avatars.githubusercontent.com/u/37784886']
+  url: 'https://www.phord.online',
+  icons: ['https://avatars.githubusercontent.com/u/37784886'],
 }
 
 // Create wagmiConfig
