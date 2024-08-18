@@ -39,14 +39,17 @@ export default function Navbar() {
           <Link href="/properties">
             <p className="text-gray-800 hover:text-gray-700">Properties</p>
           </Link>
-          <Link href="/marketplace">
-            <p className="text-gray-800 hover:text-gray-700">Sell</p>
-          </Link>
-
           <Link href="/list">
             <p className="text-gray-800 hover:text-gray-700">
               List Your Property
             </p>
+          </Link>
+          <Link href="/beta/payrent">
+            <p className="text-gray-800 hover:text-gray-700">Pay Rent</p>
+          </Link>
+
+          <Link href="/admin">
+            <p className="text-gray-800 hover:text-gray-700">Admin</p>
           </Link>
           <Link href="/profile">
             <p className="text-gray-800 hover:text-gray-700">Profile</p>
